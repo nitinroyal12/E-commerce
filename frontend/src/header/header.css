@@ -1,0 +1,32 @@
+.changehover::after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    background-color: blue;
+    transition: all 0.5s;
+}
+
+.changehover::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    bottom:0;
+    right: 10px;
+    background-color: blue;
+    transition: all 0.5s;
+}
+
+.changehover:hover:after{
+    width: 80%;
+}
+.changehover:hover{
+    color:chocolate
+}
+.changehover:hover:before{
+    width: 80%;
+}
+

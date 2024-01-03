@@ -1,0 +1,17 @@
+.submitt::before{
+    content: "";
+    height: 100%;
+    width: 0%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+
+.submitt:hover::before{
+    width: 100%;
+    
+}
